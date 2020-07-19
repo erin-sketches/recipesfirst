@@ -1,0 +1,27 @@
+body {
+    background: hsl(290 100% 3%);
+    color: rgba(255,255,255,0.7);
+    font-family: ui-monospace,monospace;
+    line-height: 1.2;
+    font-size: large;
+}
+div {
+    border-radius: 10px;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+h1 {
+    font-family: system-ui;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(
+        to right,
+        hsl(220 100% 62%),
+        hsl(0 100% 59%)
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+h2,h3,h4,h5,h6 {
+    font-family: system-ui;
+    color: rgba(255,255,255,0.5);
+}
